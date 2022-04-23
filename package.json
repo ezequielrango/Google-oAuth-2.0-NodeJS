@@ -1,0 +1,28 @@
+{
+  "name": "passport",
+  "version": "1.0.0",
+  "description": " Google oAuth 2.0 (passportJS) Practice",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bapp\u001b[C\u001b\u001b[C\u001b[C\u001b[C\u001b[C.js)",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezequielrango/Google-oAuth-2.0-NodeJS.git"
+  },
+  "author": "Ezequiel Rango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezequielrango/Google-oAuth-2.0-NodeJS/issues"
+  },
+  "homepage": "https://github.com/ezequielrango/Google-oAuth-2.0-NodeJS#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
