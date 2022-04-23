@@ -28,7 +28,8 @@ app.listen(process.env.PORT, () => { console.log(`App running in the port ${proc
 // create session
 app.use(cookieSession({
     name: 'session',
-    keys: ['key1', 'key2']
+    keys: ['key1', 'key2'],
+    maxAge: 24 * 60 * 60 * 1000 //24 hours
   }))
 
 
